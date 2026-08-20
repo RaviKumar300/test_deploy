@@ -1,0 +1,39 @@
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+.employee-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.employee-form input {
+  padding: 8px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.employee-table th {
+  cursor: pointer;
+  background: #f4f4f4;
+}
+
+.error {
+  color: red;
+}
